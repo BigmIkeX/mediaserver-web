@@ -1,0 +1,487 @@
+/* ----------- iPhone 6 ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+         width: 49%;
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+    float: none !important;
+
+    }
+.btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+         width: 49%;
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+        .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+}
+/* ----------- Iphone 5 ----------- */
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 568px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}
+
+
+/* ----------- Blackberry ----------- */
+/* Portrait */
+@media screen and (device-width: 360px) and (device-height: 640px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}
+/* ----------- LG optimus ----------- */
+/* Portrait */
+@media screen and (device-width: 384px) and (device-height: 640px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}
+
+/* ----------- Nokia Lumia ----------- */
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 533px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}
+/* ----------- iPad mini ----------- */
+/* Portrait */
+@media screen and (device-width: 768px) and (device-height: 1024px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}
+/* ----------- iPad mini ----------- */
+/* Portrait */
+@media screen and (device-width: 320px) and (device-height: 480px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}
+
+/* ----------- iPad mini ----------- */
+/* Portrait */
+@media screen and (device-width: 1080px) and (device-height: 1920px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}
+
+/* ----------- Blackberry playbook ----------- */
+/* Portrait */
+@media screen and (device-width: 600px) and (device-height: 1024px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}
+
+/* ----------- iPad mini ----------- */
+/* Portrait */
+@media screen and (device-width: 800px) and (device-height: 1280px){
+
+    body{
+
+        padding-top: 20px;
+    }
+    .container-css {
+        width: 100%;
+    }
+
+    .portfolio-item {
+        width: 49%;
+        
+    }
+
+    .header {
+        width: 100%;
+        margin: auto;
+    }
+
+    .img-server {
+        width: 100%;
+    }
+    .searchbar {
+
+    width:85% !important; 
+    padding-right:0px;
+    float: left;
+    }
+
+    .refreshbtn{
+    display: inline !important; 
+float: none !important;
+
+    }
+    .btnpc
+{
+margin: 0px 10px 10px 10px;
+
+}
+
+}

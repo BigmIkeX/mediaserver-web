@@ -1,0 +1,86 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.container-css {
+    width: 40%;
+}
+
+.header {
+    width: 75%;
+    margin: auto;
+}
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+    .hvr-grow:hover,
+    .hvr-grow:focus,
+    .hvr-grow:active {
+        transform: scale(1.1);
+    }
+
+.project-row {
+    width: 25%;
+}
+
+.img-server {
+    width: 80%;
+}
+
+.ping-orange {
+    border: 2.5px solid orange;
+    -webkit-transition: border 500ms ease-out 1s;
+    -moz-transition: border 500ms ease-out 1s;
+    -o-transition: border 500ms ease-out 1s;
+    transition: border 500ms ease-out 1s;
+}
+
+.ping-green {
+    border: 2.5px solid green;
+    -webkit-transition: border 500ms ease-out 1s;
+    -moz-transition: border 500ms ease-out 1s;
+    -o-transition: border 500ms ease-out 1s;
+    transition: border 500ms ease-out 1s;
+}
+
+.ping-red {
+    border: 2.5px solid red;
+    -webkit-transition: border 500ms ease-out 1s;
+    -moz-transition: border 500ms ease-out 1s;
+    -o-transition: border 500ms ease-out 1s;
+    transition: border 500ms ease-out 1s;
+}
+.searchbar {
+
+    width:92% !important; 
+    padding-right:0px;
+}
+
+.refreshbtn{
+display: inline !important; 
+float:right;
+
+}
