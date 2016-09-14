@@ -5,7 +5,8 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 70px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .portfolio-item {
@@ -24,7 +25,10 @@ footer {
     width: 75%;
     margin: auto;
 }
+
+
 /* Grow */
+
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -36,11 +40,11 @@ footer {
     transition-property: transform;
 }
 
-    .hvr-grow:hover,
-    .hvr-grow:focus,
-    .hvr-grow:active {
-        transform: scale(1.1);
-    }
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
 
 .project-row {
     width: 25%;
@@ -73,14 +77,13 @@ footer {
     -o-transition: border 500ms ease-out 1s;
     transition: border 500ms ease-out 1s;
 }
-.searchbar {
 
-    width:92% !important; 
-    padding-right:0px;
+.searchbar {
+    width: 92% !important;
+    padding-right: 0px;
 }
 
-.refreshbtn{
-display: inline !important; 
-float:right;
-
+.refreshbtn {
+    display: inline !important;
+    float: right;
 }

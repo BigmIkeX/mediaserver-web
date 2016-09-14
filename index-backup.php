@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 function get_server_memory_usage(){
  
     $free = shell_exec('free');
@@ -185,17 +185,15 @@ $fs = disk_free_space("/");
             </div>
         </div>
         <!-- /.row -->
-        <!-- Server status -->
-        <div>
-        <center>
+<center>
         <button data-toggle="tooltip" data-placement="bottom" title="CPU usage" type="button" class="btn btn-success animated fadeIn btnpc" style="animation-delay: 1.8s;"><span>CPU: </span> <span class="result"><?= round(get_server_cpu_usage(), 1) ?>%</span></button>
         <button data-toggle="tooltip" data-placement="bottom" title="RAM usage" type="button" class="btn btn-success animated fadeIn btnpc" style="animation-delay: 1.9s;"><span>RAM:</span> <span class="result"><?= round(get_server_memory_usage(), 1) ?>%</span></button>
         <button data-toggle="tooltip" data-placement="bottom" title="Total disk space" type="button" class="btn btn-success animated fadeIn btnpc" style="animation-delay: 2.1s;"><span>HDD TOTAL: </span> <span class="result"><?= round($ds / 1024 / 1024 / 1024 / 1024, 1) ?>TB</span></button>
                 <button data-toggle="tooltip" data-placement="bottom" title="Current disk space" type="button" class="btn btn-success animated btnpc fadeIn" style="animation-delay: 2.2s;"><span>HDD FREE: </span> <span class="result"><?= round($fs / 1024 / 1024 / 1024 / 1024, 1) ?>TB</span></button>
-        </center>
-        </div>
-        <!-- /.Server status -->
+</center>
     </div>
+
+
 
     <!-- /.container -->
     <!-- jQuery -->
@@ -222,12 +220,30 @@ $fs = disk_free_space("/");
         $("#b-100").click(function () { NProgress.done(); });
     </script>
     <!-- Refresh function -->
-
     <script>
-    $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-    });
+        function myFunction() {
+            $('#all').load('http://emslanding.local #all ');
+            var head = document.getElementsByTagName('head')[0];
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = 'js/checkservices.js';
+            head.appendChild(script);
+
+            $('body').show();
+            $('.version').text(NProgress.version);
+            NProgress.start();
+            setTimeout(function () { NProgress.done(); $('.fade').removeClass('out'); }, 3500);
+            $("#b-0").click(function () { NProgress.start(); });
+            $("#b-40").click(function () { NProgress.set(0.4); });
+            $("#b-inc").click(function () { NProgress.inc(); });
+            $("#b-100").click(function () { NProgress.done(); });
+        }
     </script>
+    <script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 
 
 </body>
